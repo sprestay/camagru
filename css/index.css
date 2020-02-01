@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: orange;
+    min-height: 80px;
+    width: 100%;
+    min-width: 300px;
+    font-size: 40px;
+    display: inline-block;
+}
+.login_button{
+    float: right;
+}
+.login_button:hover{
+    color:#FF4500;
+}
+.pic {
+    float: left;
+    padding: 3px;
+}
+.user_p {
+    display: inline;
+    font-size: 20px;
+    font-style: italic;
+}
+.pages {
+    display: inline;
+    font-size: 20px;
+    padding: 3px;
+}
+.page_block {
+    background-color: orange;
+    text-align: center;
+    width:40%;
+    margin-left:30%;
+    bottom: 0;
+    position: fixed;
+}
+.album {
+    margin-left: 50px;
+    float:left;
+}
+.album:hover{
+    color:green;
+}
